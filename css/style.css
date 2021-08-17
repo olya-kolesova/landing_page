@@ -1,0 +1,11 @@
+
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EEEEEE;
+}
