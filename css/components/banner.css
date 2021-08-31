@@ -1,12 +1,32 @@
 .banner {
-  background-image: url("../../images/night_sky.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/josh-gordon-ONxt3hLkvs0-unsplash.jpg");
   background-size: cover;
   background-position: center;
-  padding: 200px 200px;
+  padding: 320px 240px;
   color: #EEEEEE;
+  margin: 0 auto;
+  height: 100vh;
 }
 
 .banner-avatar {
-  width: 150px;
+  width: 240px;
   border-radius: 50%;
+  box-shadow: 0 0 80px black;
+}
+
+.banner h2 {
+  color: #F4F6F6;
+  font-size: 32px;
+
+}
+
+.banner h4 {
+  font-size: 24px;
+  color: #F4F6F6;
+  font-weight: 100;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #F4F6F6;
 }

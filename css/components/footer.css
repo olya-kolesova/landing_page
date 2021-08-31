@@ -1,9 +1,26 @@
 .footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #FF9C91;
+  margin: 0 auto;
+  /* opacity: 0.8; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .links {
   padding: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 240px;
+
+}
+
+.fa-github, .fa-linkedin-in, .fa-facebook, .fa-instagram {
+  color: #F4F6F6;
+}
+
+.fa-github:hover, .fa-linkedin-in:hover, .fa-facebook:hover, .fa-instagram:hover {
+  color: #C9CCD5;
 }
